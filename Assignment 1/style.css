@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+
+    width: 100%;
+    color: black;
+    top: 0;
+    height: 55px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    border: 2px solid rgb(76, 75, 75);
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .thumbnil {
+    width: 500px;
+    height: 500px;
+    border: 10px bold black;
+    border-radius: 20px;
+  }
+  .food {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-style: bold;
+    margin-left: 480px;
+  }
+  p {
+    margin-left: 697px;
+    margin-top: 5px;
+    text-decoration-line: underline;
+  }
+  .nav {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    
+  }
+  .nav a {
+    position: relative;
+    left: 30%;
+
+    color: black;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 23px;
+   
+  }
+  .nav a:hover{
+
+    background-color: rgb(181, 177, 177);
+    padding: 11px;
+    border: bold 5px;
+    transition: 0.05s;
+  }
+  hr {
+    margin-top: 20px;
+  }
+
+  .minion{
+    height:200px;
+    width:200px;
+    margin-left: 625px;
+    margin-top: 20px;
+    border-radius: 100px;
+    box-shadow: 5px 0px 1px rgb(195, 226, 236);
+  }
